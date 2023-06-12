@@ -34,3 +34,9 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_ime: macro_ime{
+compatible = "zmk,behavior-macro";
+label = "macro_ime";
+#binding-cells = <0>;
+bindings = <&kp LA(GRAVE)>;
+};
