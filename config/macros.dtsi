@@ -40,3 +40,9 @@ label = "macro_ime";
 #binding-cells = <0>;
 bindings = <&kp LA(GRAVE)>;
 };
+macro_quit: macro_quit{
+compatible = "zmk,behavior-macro";
+label = "macro_quit";
+#binding-cells = <0>;
+bindings = <&kp LA(Q)>;
+};
